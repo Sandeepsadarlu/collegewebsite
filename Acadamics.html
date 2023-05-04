@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+   margin: 0%;
+   padding:0%;
+   font-family:serif;
+    }
+     
+     nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+
+     }
+     .nav img{
+    width: 150px;
+     }
+     .sub-container{
+        flex: 1;
+        text-align: right;
+     }
+     .sub-container ul li{
+     list-style: none;
+     display: inline-block;
+     padding: 2px 4px;
+
+     }
+     .sub-container ul li a{
+        text-decoration: none;
+        color: aliceblue;
+     } 
+     
+     .sub-container ul li::after{
+        content:'';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+     }
+.sub-container li:hover::after{
+    width:100%;
+    transition: 0.5s;
+
+  }
+.courses{
+    text-align: left;
+    padding: 4px 30px;
+}
+.courses ol li{
+    color: antiquewhite;
+    font-size: 160%;
+    margin: 5%;
+}
+.courses h1{
+    color: rgb(235, 230, 230);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+
+
+    </style>
+    
+</head>
+<body>
+    <style>
+        body{
+  
+          background-image: url(background.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      </style>
+    <nav> 
+        <a href="web2.html"><img src="imagelogo.png" style="width: 120px;"></a>
+    <div class="sub-container">
+        
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Acadamics</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="des.html">Description</a></li>
+       </ul>
+
+    </ul>
+    </div>
+
+
+
+    </nav>
+    <div class="courses">
+        <h1>Courses</h1>
+        <ol>
+       <li>Computer Science</li>
+       <li>Mechanical </li>
+       <li>Civil</li>
+       <li>E&E</li>
+
+        </ol>
+        
+    
+
+
+
+    </div>
+    
+</body>
+</html>
